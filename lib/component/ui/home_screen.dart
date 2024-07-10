@@ -55,8 +55,7 @@ class _InputState extends State<Input> {
   TextButton _buttons(String buttonName) {
     return TextButton(
       style: TextButton.styleFrom(
-        primary: Colors.white,
-        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white, backgroundColor: Colors.blue,
       ),
       onPressed: () {
         if (buttonName == "Reset") {
